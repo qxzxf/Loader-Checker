@@ -1,0 +1,7 @@
+﻿  main.cpp
+  Создание кода
+  Previous IPDB not found, fall back to full compilation.
+C:\Users\balab\Desktop\KeyAuth-CPP-Example-main\main.cpp(130): warning C4717: mainmenu: рекурсия на всех путях выполнения, функция вызовет переполнение стека
+  All 374 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Создание кода завершено
+  example.vcxproj -> C:\Users\balab\Desktop\KeyAuth-CPP-Example-main\x64\Release\Loader.exe

@@ -1,0 +1,4 @@
+﻿  main.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\filesystem(13): warning STL4038: The contents of <filesystem> are available only with C++17 or later.
+main.obj : error LNK2019: ссылка на неразрешенный внешний символ URLDownloadToFileA в функции main.
+C:\Users\balab\Desktop\KeyAuth-CPP-Example-main\x64\Debug\Loader.exe : fatal error LNK1120: неразрешенных внешних элементов: 1
